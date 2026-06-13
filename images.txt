@@ -59,6 +59,9 @@ mysql:9.7.0
 mariadb
 mariadb:lts
 mongo
+mongodb/mongodb-community-server:4.4-ubi8-slim
+mongodb/mongodb-community-server:5.0.34-ubuntu2204-slim
+mongodb/mongodb-community-server:8.2-ubi9-slim
 mongodb/mongodb-community-search
 mongodb/mongodb-community-server
 postgres
