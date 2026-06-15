@@ -56,8 +56,10 @@ mysql:9.6.0
 mysql:9.6.0-oracle
 mysql:9.6.0-oraclelinux9
 mysql:9.7.0
+
 mariadb
 mariadb:lts
+
 mongo
 mongodb/mongodb-community-server:4.4.31-ubi8-slim
 mongodb/mongodb-community-server:4.4.31-ubi8
@@ -85,8 +87,10 @@ mongodb/mongodb-community-server:8.3.4-ubuntu2204-slim
 mongodb/mongodb-community-server:8.3.4-ubi9-slim
 mongodb/mongodb-community-search
 mongodb/mongodb-community-server
+
 postgres
 postgres:alpine
+
 neo4j
 clickhouse
 influxdb
