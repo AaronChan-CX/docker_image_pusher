@@ -120,6 +120,7 @@ zookeeper
 apache/kafka
 apache/rocketmq
 rabbitmq
+rabbitmq:management-alpine
 nats
 storm
 consul:1.15.4
