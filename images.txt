@@ -120,11 +120,11 @@ mongodb/mongodb-community-search
 mongodb/mongodb-community-server
 
 
+node
 nats
 neo4j
 nginx
 nextcloud
-node
 node:lts-alpine
 
 
@@ -174,8 +174,11 @@ snowdreamtech/frps
 
 tomee
 tomcat
-tensorflow/tensorflow 
+tensorflow/tensorflow
+tensorflow/tensorflow:nightly-gpu
 tensorflow/tensorflow:nightly-jupyter
+tensorflow/tensorflow:latest-gpu
+tensorflow/tensorflow:latest-gpu-jupyter
 
 
 ubuntu
