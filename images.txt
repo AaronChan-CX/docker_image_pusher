@@ -10,6 +10,7 @@ aerospike/aerospike-server
 busybox
 backdrop
 badapple9/speedtest-x
+stilleshan/speedtest-x
 
 
 crate
