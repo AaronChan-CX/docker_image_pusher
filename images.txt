@@ -13,7 +13,6 @@ adminer:standalone
 busybox
 backdrop
 badapple9/speedtest-x
-stilleshan/speedtest-x
 
 
 crate
@@ -28,8 +27,10 @@ consul:1.15.4
 
 debian
 django
-denoland/deno
 dpage/pgadmin4
+denoland/deno
+denoland/deno:alpine
+denoland/deno:2.8.3
 docker/getting-started
 
 
@@ -118,16 +119,18 @@ mongodb/mongodb-community-server
 node
 node:lts
 node:lts-alpine
-nats
-neo4j
+node:current
+node:current-alpine
+node:24.17.0
+node:24.17.0-alpine
 nginx
-nginx:stable
 nginx:mainline
 nginx:trixie
+nginx:stable
 nginx:stable-alpine
 nginx:stable-trixie
-nginx:1.8
-nginx:1.8-alpine
+#nginx:1.8
+#nginx:1.8-alpine
 nginx:1.18.0
 nginx:1.18.0-alpine
 nginx:1.22.1
@@ -140,6 +143,8 @@ nginx:1.28.3
 nginx:1.28.3-alpine
 nginx:1.31.2
 nginx:1.31.2-alpine
+nats
+neo4j
 nextcloud
 
 
@@ -150,9 +155,9 @@ opensuse/leap
 php
 php:fpm
 python
-piwik
-plone
-percona
+python:alpine
+python:3.14.6
+python:3.14-alpine
 postgres
 postgres:alpine
 phpmyadmin/phpmyadmin
@@ -168,6 +173,9 @@ pytorch/torchserve:0.12.0-gpu
 pytorch/torchserve:0.12.0-cpu
 pytorch/torchserve:latest-gpu
 pytorch/torchserve:latest-cpu
+piwik
+plone
+percona
 
 
 redis
@@ -189,6 +197,7 @@ storm
 swarm
 snowdreamtech/frpc
 snowdreamtech/frps
+stilleshan/speedtest-x
 
 
 tomee
