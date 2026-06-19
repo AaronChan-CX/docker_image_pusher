@@ -24,7 +24,6 @@ cassandra
 couchbase
 clickhouse
 consul:1.15.4
-centos:centos8.4.2105
 
 
 debian
@@ -32,8 +31,6 @@ django
 denoland/deno
 dpage/pgadmin4
 docker/getting-started
-docker.elastic.co/kibana/kibana:9.4.2
-docker.elastic.co/elasticsearch/elasticsearch:9.4.2
 
 
 erlang:29-alpine
@@ -129,6 +126,8 @@ nginx:mainline
 nginx:trixie
 nginx:stable-alpine
 nginx:stable-trixie
+nginx:1.8
+nginx:1.8-alpine
 nginx:1.18.0
 nginx:1.18.0-alpine
 nginx:1.22.1
