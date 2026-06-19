@@ -1,10 +1,13 @@
 alpine
-adminer
 arangodb
 amazonlinux
 apache/kafka
 apache/rocketmq
 aerospike/aerospike-server
+adminer:5.4.2
+adminer:5.4.2-standalone
+adminer
+adminer:standalone
 
 
 busybox
@@ -89,17 +92,22 @@ mariadb:10.11.18
 mariadb:11.8.8
 mariadb:12.3.2
 mongo
-mongo:nanoserver
+#mongo:nanoserver
 mongo:nanoserver-ltsc2022
-mongo:4.4.30-nanoserver
+mongo:4.4.30
+#mongo:4.4.30-nanoserver
 mongo:4.4.30-nanoserver-ltsc2022
-mongo:5.0.33-nanoserver
+mongo:5.0.33
+#mongo:5.0.33-nanoserver
 mongo:5.0.33-nanoserver-ltsc2022
-mongo:6.0.28-nanoserver
+mongo:6.0.28
+#mongo:6.0.28-nanoserver
 mongo:6.0.28-nanoserver-ltsc2022
-mongo:7.0.37-nanoserver
+mongo:7.0.37
+#mongo:7.0.37-nanoserver
 mongo:7.0.37-nanoserver-ltsc2022
-mongo:8.3.4-nanoserver
+mongo:8.3.4
+#mongo:8.3.4-nanoserver
 mongo:8.3.4-nanoserver-ltsc2022
 mongodb/mongodb-community-server:4.4.31-ubuntu2204
 mongodb/mongodb-community-server:5.0.34-ubuntu2204
