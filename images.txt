@@ -85,6 +85,9 @@ mysql:8.4.10
 mysql:9.7.1
 mariadb
 mariadb:lts
+mariadb:10.11.18
+mariadb:11.8.8
+mariadb:12.3.2
 mongo
 mongo:nanoserver
 mongo:nanoserver-ltsc2022
@@ -114,11 +117,21 @@ nginx
 nginx:stable
 nginx:mainline
 nginx:trixie
-nginx:1.28.3
-nginx:1.31.2
 nginx:stable-alpine
 nginx:stable-trixie
 nginx:stable-alpine3.21
+nginx:1.18.0
+nginx:1.18.0-alpine
+nginx:1.22.1
+nginx:1.22.1-alpine
+nginx:1.24.0
+nginx:1.24.0-alpine
+nginx:1.26.3
+nginx:1.26.3-alpine
+nginx:1.28.3
+nginx:1.28.3-alpine
+nginx:1.31.2
+nginx:1.31.2-alpine
 nextcloud
 node:lts-alpine
 
@@ -151,6 +164,10 @@ pytorch/torchserve:latest-cpu
 
 
 redis
+redis:7.4.9
+redis:7.4.9-bookworm
+redis:8.6.4
+redis:8.6.4-trixie
 rust
 rethinkdb
 rustfs/rustfs
