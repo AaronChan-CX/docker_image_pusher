@@ -129,7 +129,6 @@ nginx:mainline
 nginx:trixie
 nginx:stable-alpine
 nginx:stable-trixie
-nginx:stable-alpine3.21
 nginx:1.18.0
 nginx:1.18.0-alpine
 nginx:1.22.1
@@ -149,13 +148,13 @@ orientdb
 opensuse/leap
 
 
+php
+php:fpm
 python
 piwik
 plone
 percona
 postgres
-php
-php:fpm
 postgres:alpine
 phpmyadmin/phpmyadmin
 pytorch/torchserve:0.8.2-gpu
