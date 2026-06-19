@@ -189,7 +189,11 @@ rustfs/rustfs
 redmine
 registry
 rabbitmq
+rabbitmq:alpine
+rabbitmq:management
 rabbitmq:management-alpine
+rabbitmq:4-alpine
+rabbitmq:4-management-alpine
 
 
 solr
