@@ -34,9 +34,9 @@ docker.elastic.co/elasticsearch/elasticsearch:9.4.2
 
 
 erlang:29-alpine
-elasticsearch:8.19.12
-elasticsearch:9.2.6
-elasticsearch:9.3.1
+elasticsearch:6.8.23
+elasticsearch:7.17.28
+elasticsearch:8.19.16
 elasticsearch:9.4.2
 
 
@@ -64,9 +64,9 @@ joomla
 jenkins/jenkins:lts
 
 
-kibana:8.19.12
-kibana:9.2.6
-kibana:9.3.1
+kibana:6.8.23
+kibana:7.17.28
+kibana:8.19.16
 kibana:9.4.2
 
 
@@ -80,43 +80,29 @@ minio/minio
 memcached
 mysql
 mysql:lts
-mysql:lts-oracle
-mysql:lts-oraclelinux9
-mysql:8.0.45-debian
-mysql:8.4.8
-mysql:8.4.8-oracle
-mysql:8.4.8-oraclelinux9
-mysql:9.6.0
-mysql:9.6.0-oracle
-mysql:9.6.0-oraclelinux9
-mysql:9.7.0
+mysql:5.6.51 
+mysql:8.4.10
+mysql:9.7.1
 mariadb
 mariadb:lts
 mongo
-mongodb/mongodb-community-server:4.4.31-ubi8-slim
-mongodb/mongodb-community-server:4.4.31-ubi8
+mongo:nanoserver
+mongo:nanoserver-ltsc2022
+mongo:4.4.30-nanoserver
+mongo:4.4.30-nanoserver-ltsc2022
+mongo:5.0.33-nanoserver
+mongo:5.0.33-nanoserver-ltsc2022
+mongo:6.0.28-nanoserver
+mongo:6.0.28-nanoserver-ltsc2022
+mongo:7.0.37-nanoserver
+mongo:7.0.37-nanoserver-ltsc2022
+mongo:8.3.4-nanoserver
+mongo:8.3.4-nanoserver-ltsc2022
 mongodb/mongodb-community-server:4.4.31-ubuntu2204
-mongodb/mongodb-community-server:4.4.31-ubuntu2204-20260613T063124Z
-mongodb/mongodb-community-server:4.4.31-ubuntu2204-20260612T004405Z
-mongodb/mongodb-community-server:5.0.34-ubi8
-mongodb/mongodb-community-server:5.0.34-ubi8-slim
-mongodb/mongodb-community-server:6.0.29-ubi8-slim
-mongodb/mongodb-community-server:6.0.29-ubuntu2204-slim
-mongodb/mongodb-community-server:6.0.29-ubi8
-mongodb/mongodb-community-server:6.0.29-ubi9
+mongodb/mongodb-community-server:5.0.34-ubuntu2204
 mongodb/mongodb-community-server:6.0.29-ubuntu2204
-mongodb/mongodb-community-server:7.0.37-ubi8-slim
-mongodb/mongodb-community-server:7.0.37-ubi9-slim
-mongodb/mongodb-community-server:8.0.26-ubi8-slim
-mongodb/mongodb-community-server:8.0.26-ubi9-slim
-mongodb/mongodb-community-server:8.0.26-ubuntu2204-slim
-mongodb/mongodb-community-server:8.0.26-ubi8
-mongodb/mongodb-community-server:8.0.26-ubi9
-mongodb/mongodb-community-server:8.0.26-ubuntu2204
-mongodb/mongodb-community-server:8.2.11-ubuntu2204 
-mongodb/mongodb-community-server:8.2.11-ubi9-slim
-mongodb/mongodb-community-server:8.3.4-ubuntu2204-slim
-mongodb/mongodb-community-server:8.3.4-ubi9-slim
+mongodb/mongodb-community-server:7.0.37-ubuntu2204
+mongodb/mongodb-community-server:8.3.4-ubuntu2204
 mongodb/mongodb-community-search
 mongodb/mongodb-community-server
 
@@ -125,6 +111,14 @@ node
 nats
 neo4j
 nginx
+nginx:stable
+nginx:mainline
+nginx:trixie
+nginx:1.28.3
+nginx:1.31.2
+nginx:stable-alpine
+nginx:stable-trixie
+nginx:stable-alpine3.21
 nextcloud
 node:lts-alpine
 
