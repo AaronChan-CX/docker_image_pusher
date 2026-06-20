@@ -1,16 +1,13 @@
 alpine
 alpine:3
-amazonlinux
 apache/kafka
 apache/kafka:4.3.0
 apache/rocketmq
 apache/rocketmq:5.5.0
 adminer
 adminer:standalone
-adminer:5.4.2
-adminer:5.4.2-standalone
-aerospike/aerospike-server
-arangodb
+adminer:5
+adminer:5-standalone
 amazoncorretto
 amazoncorretto:25
 amazoncorretto:25-jdk
@@ -35,6 +32,11 @@ amazoncorretto:8
 amazoncorretto:8-alpine
 amazoncorretto:8-alpine-jre
 amazoncorretto:8-alpine-jdk
+aerospike/aerospike-server
+amazonlinux
+arangodb
+
+
 busybox
 backdrop
 badapple9/speedtest-x
@@ -60,7 +62,11 @@ denoland/deno:2.8.3
 docker/getting-started
 
 
+erlang
+erlang:29
 erlang:29-alpine
+erlang:28
+erlang:28-alpine
 elasticsearch:9.4.2
 elasticsearch:8.19.16
 elasticsearch:7.17.28
@@ -107,27 +113,27 @@ langchain/langchain
 
 mysql
 mysql:lts
-mysql:9.7.1
-mysql:8.4.10
-mysql:5.7.44
+mysql:9
+mysql:8
+mysql:5
 mariadb
 mariadb:lts
-mariadb:12.3.2
-mariadb:11.8.8
-mariadb:10.11.18
+mariadb:12
+mariadb:11
+mariadb:10
 mongo
-mongo:8.3.4
-mongo:7.0.37
-mongo:6.0.28
-mongo:5.0.33
-mongo:4.4.30
+mongo:8
+mongo:7
+mongo:6
+mongo:5
+mongo:4
 mongodb/mongodb-community-search
 mongodb/mongodb-community-server
-mongodb/mongodb-community-server:8.3.4-ubuntu2204
-mongodb/mongodb-community-server:7.0.37-ubuntu2204
-mongodb/mongodb-community-server:6.0.29-ubuntu2204
-mongodb/mongodb-community-server:5.0.34-ubuntu2204
-mongodb/mongodb-community-server:4.4.31-ubuntu2204
+mongodb/mongodb-community-server:8-ubuntu2204
+mongodb/mongodb-community-server:7-ubuntu2204
+mongodb/mongodb-community-server:6-ubuntu2204
+mongodb/mongodb-community-server:5-ubuntu2204
+mongodb/mongodb-community-server:4-ubuntu2204
 minio/minio
 memcached
 mcp/neo4j
@@ -141,8 +147,8 @@ node:current
 node:current-alpine
 node:lts
 node:lts-alpine
-node:24.17.0
-node:24.17.0-alpine
+node:24
+node:24-alpine
 nginx
 nginx:alpine
 nginx:mainline
@@ -206,10 +212,10 @@ percona
 
 
 redis
-redis:8.6.4
-redis:8.6.4-alpine
-redis:7.4.9
-redis:7.4.9-alpine
+redis:8
+redis:8-alpine
+redis:7
+redis:7-alpine
 rabbitmq
 rabbitmq:alpine
 rabbitmq:management
