@@ -6,7 +6,9 @@ apache/rocketmq
 apache/rocketmq:5.5.0
 adminer
 adminer:standalone
+adminer:fastcgi
 adminer:5
+adminer:5-fastcgi
 adminer:5-standalone
 amazoncorretto
 amazoncorretto:25
@@ -56,6 +58,7 @@ consul:1.14
 debian
 django
 dpage/pgadmin4
+dpage/pgadmin4:snapshot
 denoland/deno
 denoland/deno:alpine
 denoland/deno:2.8.3
@@ -98,11 +101,8 @@ influxdb
 jetty
 jetty:alpine
 jetty:jdk25
-jetty:jdk25-alpine
 jetty:jre21
-jetty:jre21-alpine
 jetty:jre17
-jetty:jre17-alpine
 joomla
 jenkins/jenkins
 jenkins/jenkins:alpine
@@ -206,7 +206,8 @@ postgres
 postgres:alpine
 postgres:14
 postgres:14-alpine
-phpmyadmin/phpmyadmin
+phpmyadmin
+phpmyadmin:fpm-alpine
 pytorch/torchserve:latest-gpu
 pytorch/torchserve:latest-cpu
 pytorch/torchserve:0.12.0-gpu
