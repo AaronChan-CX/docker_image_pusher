@@ -11,6 +11,36 @@ adminer:5.4.2
 adminer:5.4.2-standalone
 aerospike/aerospike-server
 arangodb
+amazoncorretto
+#amazoncorretto:alpine
+#amazoncorretto:jre
+#amazoncorretto:jdk
+#amazoncorretto:alpine-jre
+#amazoncorretto:alpine-jdk
+amazoncorretto:8
+amazoncorretto:8-alpine
+amazoncorretto:8-alpine-jre
+amazoncorretto:8-alpine-jdk
+amazoncorretto:11
+amazoncorretto:11-alpine
+amazoncorretto:11-alpine-jdk
+amazoncorretto:11-alpine-full
+amazoncorretto:17
+amazoncorretto:17-alpine
+amazoncorretto:17-alpine-jdk
+amazoncorretto:17-alpine-full
+amazoncorretto:21
+amazoncorretto:21-alpine
+amazoncorretto:21-alpine-jdk
+amazoncorretto:21-alpine-full
+amazoncorretto:25
+amazoncorretto:25-jdk
+amazoncorretto:25-headless
+amazoncorretto:25-headful
+amazoncorretto:25-alpine
+amazoncorretto:25-alpine-jdk
+amazoncorretto:25-alpine-full
+
 
 busybox
 backdrop
@@ -24,7 +54,8 @@ centos:8
 cassandra
 couchbase
 clickhouse
-consul:1.15.4
+consul
+consul:1.15
 
 
 debian
@@ -48,6 +79,9 @@ fullstorydev/grpcurl
 
 
 golang
+golang:alpine 
+golang:1.26
+golang:1.26-alpine
 ghost
 groovy
 gitlab/gitlab-ce
@@ -78,10 +112,6 @@ lissy93/dashy
 langchain/langchain
 
 
-matomo
-mediawiki
-minio/minio
-memcached
 mysql
 mysql:lts
 mysql:5.7.44
@@ -93,33 +123,27 @@ mariadb:10.11.18
 mariadb:11.8.8
 mariadb:12.3.2
 mongo
-#mongo:nanoserver
-#mongo:nanoserver-ltsc2022
 mongo:4.4.30
-#mongo:4.4.30-nanoserver
-#mongo:4.4.30-nanoserver-ltsc2022
 mongo:5.0.33
-#mongo:5.0.33-nanoserver
-#mongo:5.0.33-nanoserver-ltsc2022
 mongo:6.0.28
-#mongo:6.0.28-nanoserver
-#mongo:6.0.28-nanoserver-ltsc2022
 mongo:7.0.37
-#mongo:7.0.37-nanoserver
-#mongo:7.0.37-nanoserver-ltsc2022
 mongo:8.3.4
-#mongo:8.3.4-nanoserver
-#mongo:8.3.4-nanoserver-ltsc2022
+mongodb/mongodb-community-search
+mongodb/mongodb-community-server
 mongodb/mongodb-community-server:4.4.31-ubuntu2204
 mongodb/mongodb-community-server:5.0.34-ubuntu2204
 mongodb/mongodb-community-server:6.0.29-ubuntu2204
 mongodb/mongodb-community-server:7.0.37-ubuntu2204
 mongodb/mongodb-community-server:8.3.4-ubuntu2204
-mongodb/mongodb-community-search
-mongodb/mongodb-community-server
+minio/minio
+memcached
+mcp/neo4j
+matomo
+mediawiki
 
 
 node
+node:alpine
 node:lts
 node:lts-alpine
 node:current
@@ -129,24 +153,23 @@ node:24.17.0-alpine
 nginx
 nginx:alpine
 nginx:mainline
+nginx:mainline-alpine
 nginx:stable
 nginx:stable-alpine
-nginx:stable-alpine3
-#nginx:1.8
-#nginx:1.8-alpine
-nginx:1.18.0
-nginx:1.18.0-alpine
-nginx:1.22.1
-nginx:1.22.1-alpine
-nginx:1.24.0
-nginx:1.24.0-alpine
-nginx:1.26.3
-nginx:1.26.3-alpine
-nginx:1.28.3
-nginx:1.28.3-alpine
-nginx:1.31.2
-nginx:1.31.2-alpine
+nginx:1.18
+nginx:1.18-alpine
+nginx:1.22
+nginx:1.22-alpine
+nginx:1.24
+nginx:1.24-alpine
+nginx:1.26
+nginx:1.26-alpine
+nginx:1.28
+nginx:1.28-alpine
+nginx:1.31
+nginx:1.31-alpine
 nats
+nats:2.14
 neo4j
 nextcloud
 
@@ -156,13 +179,21 @@ opensuse/leap
 
 
 php
+php:alpine
+php:8-alpine
 php:fpm
+php:fpm-alpine
+php:8-fpm-alpine
 python
 python:alpine
+python:2
+python:2-alpine
 python:3
 python:3-alpine
 postgres
 postgres:alpine
+postgres:14
+postgres:14-alpine
 phpmyadmin/phpmyadmin
 pytorch/torchserve:0.8.2-gpu
 pytorch/torchserve:0.8.2-cpu
@@ -193,6 +224,9 @@ rabbitmq:management-alpine
 rabbitmq:4-alpine
 rabbitmq:4-management-alpine
 rust
+rust:alpine
+rust:1.96
+rust:1.96-alpine
 rustfs/rustfs
 rethinkdb
 redmine
