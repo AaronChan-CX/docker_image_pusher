@@ -122,7 +122,9 @@ mariadb:12
 mariadb:11
 mariadb:10
 mongo
+mongo:noble
 mongo:8
+mongo:8-noble
 mongo:7
 mongo:6
 mongo:5
