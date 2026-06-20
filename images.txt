@@ -1,3 +1,4 @@
+mysql:lts-oraclelinux9
 alpine
 alpine:3
 amazonlinux
