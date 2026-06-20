@@ -96,9 +96,20 @@ influxdb
 
 
 jetty
+jetty:alpine
+jetty:jdk25
+jetty:jdk25-alpine
+jetty:jre21
+jetty:jre21-alpine
+jetty:jre17
+jetty:jre17-alpine
 joomla
 jenkins/jenkins
+jenkins/jenkins:alpine
 jenkins/jenkins:lts
+jenkins/jenkins:lts-alpine
+jenkins/jenkins:2.569
+jenkins/jenkins:2.569-alpine
 
 
 kibana:9.4.2
@@ -214,6 +225,7 @@ percona
 
 
 redis
+redis-alpine
 redis:8
 redis:8-alpine
 redis:7
