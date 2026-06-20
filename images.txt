@@ -131,11 +131,11 @@ mongo:5
 mongo:4
 mongodb/mongodb-community-search
 mongodb/mongodb-community-server
-mongodb/mongodb-community-server:8-ubuntu2204
-mongodb/mongodb-community-server:7-ubuntu2204
-mongodb/mongodb-community-server:6-ubuntu2204
-mongodb/mongodb-community-server:5-ubuntu2204
-mongodb/mongodb-community-server:4-ubuntu2204
+mongodb/mongodb-community-server:8.3-ubuntu2204
+mongodb/mongodb-community-server:7.0-ubuntu2204
+mongodb/mongodb-community-server:6.0-ubuntu2204
+mongodb/mongodb-community-server:5.0-ubuntu2204
+mongodb/mongodb-community-server:4.4-ubuntu2204
 minio/minio
 memcached
 mcp/neo4j
