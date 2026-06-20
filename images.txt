@@ -1,14 +1,16 @@
 alpine
-arangodb
+alpine:3
 amazonlinux
 apache/kafka
+apache/kafka:4.3.0
 apache/rocketmq
-aerospike/aerospike-server
-adminer:5.4.2
-adminer:5.4.2-standalone
+apache/rocketmq:5.5.0
 adminer
 adminer:standalone
-
+adminer:5.4.2
+adminer:5.4.2-standalone
+aerospike/aerospike-server
+arangodb
 
 busybox
 backdrop
@@ -62,6 +64,7 @@ influxdb
 
 jetty
 joomla
+jenkins/jenkins
 jenkins/jenkins:lts
 
 
@@ -124,11 +127,11 @@ node:current-alpine
 node:24.17.0
 node:24.17.0-alpine
 nginx
+nginx:alpine
 nginx:mainline
-nginx:trixie
 nginx:stable
 nginx:stable-alpine
-nginx:stable-trixie
+nginx:stable-alpine3
 #nginx:1.8
 #nginx:1.8-alpine
 nginx:1.18.0
@@ -156,8 +159,8 @@ php
 php:fpm
 python
 python:alpine
-python:3.14.6
-python:3.14-alpine
+python:3
+python:3-alpine
 postgres
 postgres:alpine
 phpmyadmin/phpmyadmin
@@ -180,20 +183,20 @@ percona
 
 redis
 redis:7.4.9
-redis:7.4.9-bookworm
+redis:7.4.9-alpine
 redis:8.6.4
-redis:8.6.4-trixie
-rust
-rethinkdb
-rustfs/rustfs
-redmine
-registry
+redis:8.6.4-alpine
 rabbitmq
 rabbitmq:alpine
 rabbitmq:management
 rabbitmq:management-alpine
 rabbitmq:4-alpine
 rabbitmq:4-management-alpine
+rust
+rustfs/rustfs
+rethinkdb
+redmine
+registry
 
 
 solr
