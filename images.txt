@@ -12,11 +12,6 @@ adminer:5.4.2-standalone
 aerospike/aerospike-server
 arangodb
 amazoncorretto
-#amazoncorretto:alpine
-#amazoncorretto:jre
-#amazoncorretto:jdk
-#amazoncorretto:alpine-jre
-#amazoncorretto:alpine-jdk
 amazoncorretto:8
 amazoncorretto:8-alpine
 amazoncorretto:8-alpine-jre
@@ -54,8 +49,8 @@ centos:8
 cassandra
 couchbase
 clickhouse
-consul
 consul:1.15
+consul:1.14
 
 
 debian
