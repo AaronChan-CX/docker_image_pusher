@@ -101,8 +101,6 @@ influxdb
 jetty
 jetty:alpine
 jetty:jdk25
-jetty:jre21
-jetty:jre17
 joomla
 jenkins/jenkins
 jenkins/jenkins:alpine
