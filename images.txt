@@ -1,3 +1,4 @@
+redis-alpine
 alpine
 alpine:3
 apache/kafka
