@@ -297,7 +297,7 @@ tomcat:jre25
 tomcat:alpine
 tomcat:9
 tomcat:9-jre25
-tomcat:9-jre25-alpine 
+tomcat:9-jre25-alpine
 tensorflow/tensorflow
 tensorflow/tensorflow:latest-gpu
 tensorflow/tensorflow:latest-gpu-jupyter
