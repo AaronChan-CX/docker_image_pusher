@@ -40,6 +40,8 @@ arangodb
 
 
 busybox
+busybox:glibc
+busybox:1.38-glibc
 backdrop
 badapple9/speedtest-x
 
@@ -56,6 +58,8 @@ consul:1.14
 
 
 debian
+debian:stable
+debian:13
 django
 dpage/pgadmin4
 dpage/pgadmin4:snapshot
@@ -77,6 +81,7 @@ elasticsearch:6.8.23
 
 
 fedora
+fedora:45
 fullstorydev/grpcurl
 
 
@@ -86,6 +91,8 @@ golang:1.26
 golang:1.26-alpine
 ghost
 groovy
+groovy:jdk
+groovy:5.0.6
 gitlab/gitlab-ce
 
 
@@ -96,6 +103,7 @@ harisekhon/hbase
 
 iojs
 influxdb
+influxdb:3-core
 
 
 jetty
@@ -135,9 +143,13 @@ mongo:noble
 mongo:8
 mongo:8-noble
 mongo:7
+mongo:7-jammy
 mongo:6
+mongo:6-jammy
 mongo:5
+mongo:5-focal
 mongo:4
+mongo:4-focal
 mongodb/mongodb-community-search
 mongodb/mongodb-community-server
 mongodb/mongodb-community-server:8.3-ubuntu2204
@@ -147,6 +159,8 @@ mongodb/mongodb-community-server:5.0-ubuntu2204
 mongodb/mongodb-community-server:4.4-ubuntu2204
 minio/minio
 memcached
+memcached:alpine
+memcached:1-alpine
 mcp/neo4j
 matomo
 mediawiki
@@ -157,25 +171,35 @@ node:alpine
 node:current
 node:current-alpine
 node:lts
+node:lts-slim
 node:lts-alpine
 node:24
+node:24-slim
 node:24-alpine
 nginx
 nginx:alpine
+nginx:alpine-slim
 nginx:mainline
 nginx:mainline-alpine
+nginx:mainline-alpine-slim
 nginx:stable
 nginx:stable-alpine
+nginx:stable-alpine-slim
 nginx:1.31
 nginx:1.31-alpine
+nginx:1.31-alpine-slim
 nginx:1.28
 nginx:1.28-alpine
+nginx:1.28-alpine-slim
 nginx:1.26
 nginx:1.26-alpine
+nginx:1.26-alpine-slim
 nginx:1.24
 nginx:1.24-alpine
+nginx:1.24-alpine-slim
 nginx:1.22
 nginx:1.22-alpine
+nginx:1.22-alpine-slim
 nginx:1.18
 nginx:1.18-alpine
 nats
@@ -189,16 +213,21 @@ opensuse/leap
 
 
 php
-php:alpine
-php:8-alpine
 php:fpm
+php:alpine
 php:fpm-alpine
+php:8
+php:8-fpm
+php:8-alpine
 php:8-fpm-alpine
 python
+python:slim
 python:alpine
 python:3
+python:3-slim
 python:3-alpine
 python:2
+python:2-slim
 python:2-alpine
 postgres
 postgres:alpine
@@ -236,10 +265,15 @@ rabbitmq:management-alpine
 rabbitmq:4-alpine
 rabbitmq:4-management-alpine
 rust
+rust:slim
 rust:alpine
+rust:slim-trixie
 rust:1.96
+rust:1.96-slim
 rust:1.96-alpine
+rust:1.96-slim-trixie
 rustfs/rustfs
+rustfs/rustfs:latest-glibc
 rethinkdb
 redmine
 registry
@@ -254,7 +288,14 @@ stilleshan/speedtest-x
 
 
 tomee
+tomee:11-alpine
+tomee:jre11-alpine
 tomcat
+tomcat:jre25
+tomcat:alpine
+tomcat:9
+tomcat:9-jre25
+tomcat:9-jre25-alpine 
 tensorflow/tensorflow
 tensorflow/tensorflow:latest-gpu
 tensorflow/tensorflow:latest-gpu-jupyter
@@ -269,7 +310,11 @@ ubuntu:22.04
 
 
 wordpress
+wordpress:php8.5-fpm-alpine
+wordpress:7-php8.5-fpm-alpine
 websphere-liberty
 
 
 zookeeper
+zookeeper:3.9
+zookeeper:3.9-jre-17
