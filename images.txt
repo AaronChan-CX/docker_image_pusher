@@ -167,8 +167,10 @@ mediawiki
 
 
 node
+node:slim
 node:alpine
 node:current
+node:current-slim
 node:current-alpine
 node:lts
 node:lts-slim
