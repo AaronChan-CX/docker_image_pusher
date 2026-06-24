@@ -5,8 +5,8 @@ apache/kafka:4.3.0
 apache/rocketmq
 apache/rocketmq:5.5.0
 adminer
-adminer:standalone
 adminer:fastcgi
+adminer:standalone
 adminer:5
 adminer:5-fastcgi
 adminer:5-standalone
@@ -326,7 +326,7 @@ tomcat:jre25
 tomcat:alpine
 tomcat:9
 tomcat:9-jre25
-tomcat:9-jre25-alpine
+tomcat:9-jre25-temurin
 tensorflow/tensorflow
 tensorflow/tensorflow:latest-gpu
 tensorflow/tensorflow:latest-gpu-jupyter
