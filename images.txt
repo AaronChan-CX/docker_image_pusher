@@ -242,7 +242,6 @@ nats
 nats:2.14
 neo4j
 nextcloud
-wintools/nanoserver
 wintools/nanoserver:ltsc2022
 
 
