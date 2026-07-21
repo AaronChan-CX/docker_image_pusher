@@ -36,7 +36,12 @@ amazoncorretto:8-alpine-jre
 amazoncorretto:8-alpine-jdk
 aerospike/aerospike-server
 amazonlinux
+almalinux
+almalinux:minimal
+almalinux:9
+almalinux:9-minimal
 arangodb
+
 
 
 busybox
@@ -49,6 +54,7 @@ badapple9/speedtest-x
 crate
 cirros
 couchdb
+couchdb:3
 centos:8
 cassandra
 couchbase
@@ -130,6 +136,10 @@ harisekhon/hbase
 iojs
 influxdb
 influxdb:3-core
+ibmjava
+ibmjava:jre
+ibmjava:sdk-alpine
+ibmjava:jre-alpine
 
 
 jetty
@@ -160,6 +170,7 @@ logstash:9.4.2
 logstash:8.19.16
 logstash:7.17.28
 logstash:6.8.23
+lightstreamer
 
 
 mysql
@@ -239,7 +250,7 @@ nginx:1.22-alpine-slim
 nginx:1.18
 nginx:1.18-alpine
 nats
-nats:2.14
+nats:2
 neo4j
 nextcloud
 
@@ -319,19 +330,26 @@ rethinkdb:bookworm-slim
 rethinkdb:2
 redmine
 registry
+rockylinux:9-minimal
+rocket.chat
+rocket.chat:8
 
 
 solr
+solr:9.9
 storm
 swarm
 snowdreamtech/frpc
 snowdreamtech/frps
 stilleshan/speedtest-x
+spark
 
 
 tomee
 tomee:11-alpine
 tomee:jre11-alpine
+tomee:25-alpine
+tomee:jre25-alpine
 tomcat
 tomcat:jre25
 tomcat:alpine
