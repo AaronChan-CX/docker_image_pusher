@@ -346,9 +346,7 @@ spark
 
 
 tomee
-tomee:11-alpine
-tomee:jre11-alpine
-tomee:25-alpine
+tomee:jre21-alpine
 tomee:jre25-alpine
 tomcat
 tomcat:jre25
