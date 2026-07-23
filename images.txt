@@ -45,8 +45,9 @@ arangodb
 
 
 busybox
-busybox:glibc
-busybox:1.38-glibc
+busybox:1
+busybox:glibc 
+busybox:1-glibc 
 backdrop
 badapple9/speedtest-x
 
@@ -70,8 +71,9 @@ django
 dpage/pgadmin4
 dpage/pgadmin4:snapshot
 denoland/deno
+denoland/deno:bin
 denoland/deno:alpine
-denoland/deno:2.8.3
+denoland/deno:2.9.3
 docker/getting-started
 
 
