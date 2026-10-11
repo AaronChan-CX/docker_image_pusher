@@ -204,7 +204,7 @@ mongodb/mongodb-community-server:7.0-ubuntu2204
 mongodb/mongodb-community-server:6.0-ubuntu2204
 mongodb/mongodb-community-server:5.0-ubuntu2204
 mongodb/mongodb-community-server:4.4-ubuntu2204
-minio/minio
+#minio/minio
 memcached
 memcached:alpine
 memcached:1-alpine
