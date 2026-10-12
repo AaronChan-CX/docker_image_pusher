@@ -1,9 +1,7 @@
 alpine
 alpine:3
-apache/kafka
-apache/kafka:4.3.0
-apache/rocketmq
-apache/rocketmq:5.5.0
+apache/kafka 
+apache/rocketmq 
 adminer
 adminer:fastcgi
 adminer:standalone
@@ -17,31 +15,12 @@ amazoncorretto:25-headless
 amazoncorretto:25-headful
 amazoncorretto:25-alpine
 amazoncorretto:25-alpine-jdk
-amazoncorretto:25-alpine-full
-amazoncorretto:21
-amazoncorretto:21-alpine
-amazoncorretto:21-alpine-jdk
-amazoncorretto:21-alpine-full
-amazoncorretto:17
-amazoncorretto:17-alpine
-amazoncorretto:17-alpine-jdk
-amazoncorretto:17-alpine-full
-amazoncorretto:11
-amazoncorretto:11-alpine
-amazoncorretto:11-alpine-jdk
-amazoncorretto:11-alpine-full
-amazoncorretto:8
-amazoncorretto:8-alpine
-amazoncorretto:8-alpine-jre
-amazoncorretto:8-alpine-jdk
+amazoncorretto:25-alpine-full 
 aerospike/aerospike-server
 amazonlinux
 almalinux
-almalinux:minimal
-almalinux:9
-almalinux:9-minimal
+almalinux:minimal 
 arangodb
-
 
 
 busybox
@@ -55,62 +34,31 @@ badapple9/speedtest-x
 crate
 cirros
 couchdb
-couchdb:3
-centos:8
 cassandra
 couchbase
-clickhouse
-consul:1.15
-consul:1.14
+clickhouse 
 
 
 debian
 debian:stable
-debian:13
 django
 dpage/pgadmin4
 dpage/pgadmin4:snapshot
 denoland/deno
 denoland/deno:bin
-denoland/deno:alpine
-denoland/deno:2.9.3
+denoland/deno:alpine 
 docker/getting-started
 
 
 erlang
-erlang:29
-erlang:29-alpine
-erlang:28
-erlang:28-alpine
-elasticsearch:9.4.2
-elasticsearch:8.19.16
-elasticsearch:7.17.28
-elasticsearch:6.8.23
 eclipse-temurin
 eclipse-temurin:25-jdk
 eclipse-temurin:25-jdk-alpine
 eclipse-temurin:25-jre
 eclipse-temurin:25-jre-alpine
-eclipse-temurin:21-jdk
-eclipse-temurin:21-jdk-alpine
-eclipse-temurin:21-jre
-eclipse-temurin:21-jre-alpine
-eclipse-temurin:17-jdk
-eclipse-temurin:17-jdk-alpine
-eclipse-temurin:17-jre
-eclipse-temurin:17-jre-alpine
-eclipse-temurin:11-jdk
-eclipse-temurin:11-jdk-alpine
-eclipse-temurin:11-jre
-eclipse-temurin:11-jre-alpine
-eclipse-temurin:8-jdk
-eclipse-temurin:8-jdk-alpine
-eclipse-temurin:8-jre
-eclipse-temurin:8-jre-alpine
 
 
 fedora
-fedora:45
 friendica
 friendica:fpm
 friendica:stable
@@ -121,12 +69,9 @@ fullstorydev/grpcurl
 
 golang
 golang:alpine 
-golang:1.26
-golang:1.26-alpine
 ghost
 groovy
-groovy:jdk
-groovy:5.0.6
+groovy:jdk 
 gitlab/gitlab-ce
 
 
@@ -152,62 +97,28 @@ jenkins/jenkins
 jenkins/jenkins:alpine
 jenkins/jenkins:lts
 jenkins/jenkins:lts-alpine
-jenkins/jenkins:2.569
-jenkins/jenkins:2.569-alpine
 
 
-kibana:9.4.2
-kibana:8.19.16
-kibana:7.17.28
-kibana:6.8.23
 kong
 kong:alpine
 kong:3
-kong:3.9.3-ubuntu
 
 
 lissy93/dashy
 langchain/langchain
-logstash:9.4.2
-logstash:8.19.16
-logstash:7.17.28
-logstash:6.8.23
 lightstreamer
 
 
 mysql
 mysql:lts
-mysql:9
-mysql:8
-mysql:5
 mariadb
 mariadb:lts
-mariadb:12
-mariadb:11
-mariadb:10
 mongo
 mongo:noble
-mongo:8
-mongo:8-noble
-mongo:7
-mongo:7-jammy
-mongo:6
-mongo:6-jammy
-mongo:5
-mongo:5-focal
-mongo:4
-mongo:4-focal
 mongodb/mongodb-community-search
 mongodb/mongodb-community-server
-mongodb/mongodb-community-server:8.3-ubuntu2204
-mongodb/mongodb-community-server:7.0-ubuntu2204
-mongodb/mongodb-community-server:6.0-ubuntu2204
-mongodb/mongodb-community-server:5.0-ubuntu2204
-mongodb/mongodb-community-server:4.4-ubuntu2204
-#minio/minio
 memcached
 memcached:alpine
-memcached:1-alpine
 mcp/neo4j
 matomo
 mediawiki
@@ -222,9 +133,6 @@ node:current-alpine
 node:lts
 node:lts-slim
 node:lts-alpine
-node:24
-node:24-slim
-node:24-alpine
 nginx
 nginx:alpine
 nginx:alpine-slim
@@ -234,25 +142,7 @@ nginx:mainline-alpine-slim
 nginx:stable
 nginx:stable-alpine
 nginx:stable-alpine-slim
-nginx:1.31
-nginx:1.31-alpine
-nginx:1.31-alpine-slim
-nginx:1.28
-nginx:1.28-alpine
-nginx:1.28-alpine-slim
-nginx:1.26
-nginx:1.26-alpine
-nginx:1.26-alpine-slim
-nginx:1.24
-nginx:1.24-alpine
-nginx:1.24-alpine-slim
-nginx:1.22
-nginx:1.22-alpine
-nginx:1.22-alpine-slim
-nginx:1.18
-nginx:1.18-alpine
 nats
-nats:2
 neo4j
 nextcloud
 
@@ -265,37 +155,18 @@ php
 php:fpm
 php:alpine
 php:fpm-alpine
-php:8
-php:8-fpm
-php:8-alpine
-php:8-fpm-alpine
 python
 python:slim
 python:alpine
 python:3
 python:3-slim
 python:3-alpine
-python:2
-python:2-slim
-python:2-alpine
 postgres
 postgres:alpine
-postgres:14
-postgres:14-alpine
 phpmyadmin
 phpmyadmin:fpm-alpine
 pytorch/torchserve:latest-gpu
 pytorch/torchserve:latest-cpu
-pytorch/torchserve:0.12.0-gpu
-pytorch/torchserve:0.12.0-cpu
-pytorch/torchserve:0.11.1-gpu
-pytorch/torchserve:0.11.1-cpu
-pytorch/torchserve:0.10.0-gpu
-pytorch/torchserve:0.10.0-cpu
-pytorch/torchserve:0.9.0-gpu
-pytorch/torchserve:0.9.0-cpu
-pytorch/torchserve:0.8.2-gpu
-pytorch/torchserve:0.8.2-cpu
 piwik
 plone
 percona
@@ -303,42 +174,26 @@ percona
 
 redis
 redis:alpine
-redis:8
-redis:8-alpine
-redis:7
-redis:7-alpine
 rabbitmq
 rabbitmq:alpine
 rabbitmq:management
 rabbitmq:management-alpine
-rabbitmq:4-alpine
-rabbitmq:4-management-alpine
 ruby
 ruby:alpine
-ruby:4-alpine
-ruby:3-alpine
 rust
 rust:slim
 rust:alpine
 rust:slim-trixie
-rust:1.96
-rust:1.96-slim
-rust:1.96-alpine
-rust:1.96-slim-trixie
 rustfs/rustfs
 rustfs/rustfs:latest-glibc
 rethinkdb
 rethinkdb:bookworm-slim
-rethinkdb:2
 redmine
 registry
-rockylinux:9-minimal
 rocket.chat
-rocket.chat:8
 
 
 solr
-solr:9.9
 storm
 swarm
 snowdreamtech/frpc
@@ -348,14 +203,10 @@ spark
 
 
 tomee
-tomee:jre21-alpine
 tomee:jre25-alpine
 tomcat
 tomcat:jre25
 tomcat:alpine
-tomcat:9
-tomcat:9-jre25
-tomcat:9-jre25-temurin
 tensorflow/tensorflow
 tensorflow/tensorflow:latest-gpu
 tensorflow/tensorflow:latest-gpu-jupyter
@@ -370,11 +221,7 @@ ubuntu:22.04
 
 
 wordpress
-wordpress:php8.5-fpm-alpine
-wordpress:7-php8.5-fpm-alpine
 websphere-liberty
 
 
 zookeeper
-zookeeper:3.9
-zookeeper:3.9-jre-17
