@@ -15,6 +15,7 @@ mariadb
 mariadb:lts
 mongo
 mongo:noble
+mongo:4
 mongodb/mongodb-community-search
 mongodb/mongodb-community-server
 memcached
